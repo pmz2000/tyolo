@@ -1,5 +1,6 @@
 # [推荐] 使用 NVIDIA 的 PyTorch 镜像作为基础镜像，以兼容较新的开源库和 GPU 卡类型
-FROM nvcr.io/nvidia/pytorch:23.07-py3
+# FROM nvcr.io/nvidia/pytorch:23.07-py3
+FROM nvcr.io/nvidia/pytorch:24.06-py3
 
 # [推荐] 修改软件源（若在腾讯云使用推荐用内网源）
 # [腾讯外网软件源] mirrors.tencent.com
